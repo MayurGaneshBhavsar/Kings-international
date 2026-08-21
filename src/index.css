@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Outfit', sans-serif;
+
+  --color-brand-primary: #0f2c59;      /* Deep Royal Blue */
+  --color-brand-secondary: #1d4ed8;    /* Medium Blue */
+  --color-brand-dark: #0b1e3f;         /* Dark Navy / Deepest Blue */
+  --color-brand-accent: #3b82f6;       /* Accent Blue */
+  --color-brand-bg-light: #f3f7fa;     /* Very light blue / subtle gray-blue */
+  --color-brand-bg-card: #f8fafc;      /* Supporting background */
+  --color-brand-text-dark: #1e293b;    /* Dark Navy / Charcoal */
+  --color-brand-text-muted: #475569;   /* Slate Gray */
+  
+  --shadow-premium: 0 4px 20px -2px rgba(15, 44, 89, 0.08), 0 2px 8px -1px rgba(15, 44, 89, 0.04);
+  --shadow-premium-hover: 0 12px 30px -4px rgba(15, 44, 89, 0.12), 0 4px 12px -2px rgba(15, 44, 89, 0.06);
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    color: var(--color-brand-text-dark);
+    background-color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    font-weight: 700;
+  }
+}
+
+/* Custom Utilities or components if needed */
+.sticky-header {
+  backdrop-filter: blur(12px);
+  background-color: rgba(11, 30, 63, 0.98); /* Deep brand-dark blue */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Form inputs styling */
+.form-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.25rem;
+  font-size: 0.95rem;
+  color: var(--color-brand-text-dark);
+  transition: all 0.2s ease;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: var(--color-brand-secondary);
+  box-shadow: 0 0 0 3px rgba(29, 78, 216, 0.15);
+}
