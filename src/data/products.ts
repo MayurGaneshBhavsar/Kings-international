@@ -10,7 +10,7 @@ export const products: Product[] = [
     shortDescription: 'One of the most widely used inorganic pigments in industry, valued for its strong coloring power, chemical stability, and ease of use across formulations.',
     description: 'Iron Oxide is one of the most widely used inorganic pigments in industry, valued for its strong coloring power, chemical stability, and ease of use across formulations. Kings International manufactures and exports Iron Oxide in Red, Yellow, and Black — supplying paints and coatings, construction, ceramics, plastics, rubber, and fertilizer industries in India and abroad.\n\nWhat is Iron Oxide?\nIron Oxide is an iron-based compound available in three primary forms — Red (Fe₂O₃), Yellow (FeOOH), and Black (Fe₃O₄) — each suited to different applications based on color strength, opacity, and stability. Our manufacturing process is built for consistency: every batch matches the last in shade, particle size, and purity.',
     images: [
-      'https://images.unsplash.com/photo-1604147706283-d7119b5b822c?auto=format&fit=crop&w=800&q=80',
+      '/products/iron-oxide.png',
       'https://images.unsplash.com/photo-1508873696983-2df519f0397e?auto=format&fit=crop&w=800&q=80',
       'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80',
     ],
@@ -48,7 +48,7 @@ export const products: Product[] = [
     shortDescription: 'High density, magnetic properties, and iron content, suited for construction concrete shielding and catalyst production.',
     description: 'Magnetite (Fe₃O₄) is an iron oxide valued for its high density, magnetic properties, and iron content. Kings International supplies Magnetite for construction, ceramics, and catalyst applications across India and export markets.',
     images: [
-      'https://images.unsplash.com/photo-1505118380757-91f5f5632de0?auto=format&fit=crop&w=800&q=80',
+      '/products/magnetite.png',
       'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80',
       'https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=800&q=80',
     ],
@@ -80,7 +80,7 @@ export const products: Product[] = [
     shortDescription: 'Naturally occurring oxide mineral valued for its oxidising properties, colour strength, and stability at high temperatures.',
     description: 'Manganese Dioxide (MnO₂) is a naturally occurring oxide mineral valued for its oxidising properties, colour strength, and stability at high temperatures. Kings International supplies Manganese Dioxide across India and export markets, suited to a wide range of industrial applications.',
     images: [
-      'https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=800&q=80',
+      '/products/manganese-dioxide.png',
       'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80',
       'https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80',
     ],
@@ -114,7 +114,7 @@ export const products: Product[] = [
     shortDescription: 'Naturally occurring hydrous magnesium silicate valued for its softness, chemical inertness, and platy particle structure.',
     description: 'Talc (Mg₃Si₄O₁₀(OH)₂) is a naturally occurring hydrous magnesium silicate valued for its softness, chemical inertness, and platy particle structure. Kings International supplies Talc across India and export markets, suited to a wide range of industrial applications.',
     images: [
-      'https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=800&q=80',
+      '/products/talc.png',
       'https://images.unsplash.com/photo-1505944270255-72b8c68c6a70?auto=format&fit=crop&w=800&q=80',
       'https://images.unsplash.com/photo-1582738411706-bfc8e691d1c2?auto=format&fit=crop&w=800&q=80',
     ],

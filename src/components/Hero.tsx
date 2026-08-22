@@ -39,8 +39,8 @@ export const Hero: React.FC = () => {
       badge: 'ISO 9001:2015 Certified',
       title: 'Strict Quality Control & Batch Purity',
       description: 'We operate state-of-the-art laboratories in Gujarat, ensuring rigorous particle size checks (mesh size) and chemical composition analysis.',
-      primaryText: 'Quality Assurance',
-      primaryLink: '/quality',
+      primaryText: 'Contact Lab',
+      primaryLink: '/contact',
       secondaryText: 'Download Tech Sheet',
       secondaryLink: '/products/magnetite'
     },
@@ -49,8 +49,8 @@ export const Hero: React.FC = () => {
       badge: 'Global Supply & Warehousing',
       title: 'Port-to-Port Sea Logistics & Operations',
       description: 'Located close to major ports (Mundra & Kandla) for efficient international shipping, reliable bulk supplies, and tailored packaging.',
-      primaryText: 'Industries Served',
-      primaryLink: '/industries',
+      primaryText: 'Product Catalog',
+      primaryLink: '/products',
       secondaryText: 'Contact Sales',
       secondaryLink: '/contact'
     }

@@ -6,8 +6,6 @@ import { Home } from './pages/Home';
 import { About } from './pages/About';
 import { Products } from './pages/Products';
 import { ProductDetail } from './pages/ProductDetail';
-import { Industries } from './pages/Industries';
-import { Quality } from './pages/Quality';
 import { Contact } from './pages/Contact';
 
 // ScrollToTop helper component to reset scroll position on page transition
@@ -36,8 +34,6 @@ const App: React.FC = () => {
             <Route path="/about" element={<About />} />
             <Route path="/products" element={<Products />} />
             <Route path="/products/:slug" element={<ProductDetail />} />
-            <Route path="/industries" element={<Industries />} />
-            <Route path="/quality" element={<Quality />} />
             <Route path="/contact" element={<Contact />} />
             {/* Fallback to Home */}
             <Route path="*" element={<Home />} />

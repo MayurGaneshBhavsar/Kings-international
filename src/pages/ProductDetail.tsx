@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { Download, CheckCircle, ChevronRight, HelpCircle } from 'lucide-react';
+import { Download, CheckCircle, ChevronRight } from 'lucide-react';
 import { products } from '../data/products';
 import { InquiryForm } from '../components/InquiryForm';
 
@@ -309,41 +309,7 @@ export const ProductDetail: React.FC = () => {
                 </div>
               </div>
 
-              {/* Industrial FAQ Section */}
-              <div className="space-y-4 pt-4 border-t border-slate-100">
-                <h3 className="text-base font-bold text-brand-dark font-display border-b border-slate-100 pb-2 uppercase tracking-wide">
-                  Frequently Asked Questions (FAQ)
-                </h3>
-                <div className="space-y-4">
-                  <div className="space-y-1">
-                    <div className="flex items-center gap-1.5 text-sm font-bold text-brand-dark">
-                      <HelpCircle className="w-4 h-4 text-brand-secondary shrink-0" />
-                      <span>Can Kings International provide custom particle sizes or mesh grades?</span>
-                    </div>
-                    <p className="text-xs sm:text-sm text-brand-text-muted pl-5.5 leading-relaxed">
-                      Yes. We can mill, pulverize, and screen our products to your exact required particle sizes and PSD curves at our Khopoli facility.
-                    </p>
-                  </div>
-                  <div className="space-y-1">
-                    <div className="flex items-center gap-1.5 text-sm font-bold text-brand-dark">
-                      <HelpCircle className="w-4 h-4 text-brand-secondary shrink-0" />
-                      <span>What is your standard export order dispatch timeline?</span>
-                    </div>
-                    <p className="text-xs sm:text-sm text-brand-text-muted pl-5.5 leading-relaxed">
-                      Thanks to our close proximity to Nhava Sheva (JNPT) port in Mumbai, standard containerized orders are typically shipped within 7 to 14 working days of document clearance.
-                    </p>
-                  </div>
-                  <div className="space-y-1">
-                    <div className="flex items-center gap-1.5 text-sm font-bold text-brand-dark">
-                      <HelpCircle className="w-4 h-4 text-brand-secondary shrink-0" />
-                      <span>Do you provide samples for testing and evaluation?</span>
-                    </div>
-                    <p className="text-xs sm:text-sm text-brand-text-muted pl-5.5 leading-relaxed">
-                      Absolutely. We provide complimentary 1–2 kg samples of our minerals for laboratory testing and shade matching to qualified industrial buyers.
-                    </p>
-                  </div>
-                </div>
-              </div>
+
 
             </div>
 

@@ -197,10 +197,10 @@ export const Home: React.FC = () => {
 
           <div className="text-center mt-12">
             <Link
-              to="/industries"
+              to="/contact"
               className="px-6 py-3 bg-brand-secondary hover:bg-brand-accent text-white font-bold text-sm uppercase tracking-wider inline-flex items-center gap-1.5 transition-colors cursor-pointer"
             >
-              Learn More About Applications
+              Request Custom Sourcing
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
@@ -240,10 +240,10 @@ export const Home: React.FC = () => {
 
               <div className="pt-4">
                 <Link
-                  to="/quality"
+                  to="/contact"
                   className="px-5 py-3 bg-brand-primary hover:bg-brand-secondary text-white font-bold text-sm uppercase tracking-wider inline-flex items-center gap-1.5 transition-colors cursor-pointer"
                 >
-                  Explore Infrastructure
+                  Request Technical Sheets
                   <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>
@@ -286,27 +286,6 @@ export const Home: React.FC = () => {
             <div className="bg-white p-8 border border-slate-200 shadow-premium">
               <div className="text-3xl md:text-4xl font-extrabold text-brand-secondary font-display">24Hr</div>
               <div className="text-xs font-bold text-brand-dark uppercase tracking-wider mt-2 font-display">Inquiry Response</div>
-            </div>
-          </div>
-
-          <div className="bg-white border border-slate-200 p-8 md:p-12 shadow-premium max-w-4xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
-              <div className="md:col-span-8 space-y-3">
-                <h3 className="text-xl font-bold text-brand-dark font-display">
-                  Port-to-Port Logistics Efficiency
-                </h3>
-                <p className="text-sm text-brand-text-muted leading-relaxed">
-                  Our headquarters in Gujarat is located near major container ports like Kandla and Mundra, enabling efficient ocean transport schedules. We manage full export documentation, customs clearances, and multimodal shipping routes, ensuring that containerized mineral shipments arrive exactly as scheduled.
-                </p>
-              </div>
-              <div className="md:col-span-4 text-left md:text-right">
-                <Link
-                  to="/contact"
-                  className="px-5 py-3 bg-brand-secondary hover:bg-brand-dark text-white font-bold text-sm uppercase tracking-wider inline-block transition-colors cursor-pointer"
-                >
-                  Contact Shipping
-                </Link>
-              </div>
             </div>
           </div>
         </div>

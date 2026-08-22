@@ -172,27 +172,7 @@ export const Navbar: React.FC = () => {
               )}
             </div>
 
-            <NavLink
-              to="/industries"
-              className={({ isActive }) =>
-                `px-3 py-2 text-xs font-bold uppercase tracking-wider transition-colors ${
-                  isActive ? 'text-brand-accent' : 'text-slate-100 hover:text-brand-accent'
-                }`
-              }
-            >
-              INDUSTRIES
-            </NavLink>
 
-            <NavLink
-              to="/quality"
-              className={({ isActive }) =>
-                `px-3 py-2 text-xs font-bold uppercase tracking-wider transition-colors ${
-                  isActive ? 'text-brand-accent' : 'text-slate-100 hover:text-brand-accent'
-                }`
-              }
-            >
-              QUALITY & INFRASTRUCTURE
-            </NavLink>
 
             <NavLink
               to="/contact"
@@ -286,27 +266,7 @@ export const Navbar: React.FC = () => {
               )}
             </div>
 
-            <NavLink
-              to="/industries"
-              className={({ isActive }) =>
-                `block px-3 py-2 text-base font-bold transition-colors ${
-                  isActive ? 'text-brand-accent bg-brand-primary/30' : 'text-slate-200 hover:text-white'
-                }`
-              }
-            >
-              INDUSTRIES
-            </NavLink>
 
-            <NavLink
-              to="/quality"
-              className={({ isActive }) =>
-                `block px-3 py-2 text-base font-bold transition-colors ${
-                  isActive ? 'text-brand-accent bg-brand-primary/30' : 'text-slate-200 hover:text-white'
-                }`
-              }
-            >
-              QUALITY & INFRASTRUCTURE
-            </NavLink>
 
             <NavLink
               to="/contact"
